@@ -31,7 +31,7 @@ class B:
     varB = "Welcome to class B"
 
 class C(A,B):
-     varC = "Welcome to class C"
+    varC = "Welcome to class C"
 
 #Super Method: Used to access methods of parent classes
 car1 = ToyotaCar("prius", "electric")
@@ -68,7 +68,7 @@ class Student:
         self.phy=phy
         self.chem=chem
         self.maths=maths
-       # self.percentage = str((self.phy + self.chem + self.maths)/3) + "%"
+    # self.percentage = str((self.phy + self.chem + self.maths)/3) + "%"
 
     @property
     def percentage(self):
