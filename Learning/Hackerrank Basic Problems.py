@@ -89,3 +89,4 @@ if __name__ == '__main__':
         print(f"{average:.2f}") #f string formatting to 2 decimal places
     else:
         print("Student not found")
+
