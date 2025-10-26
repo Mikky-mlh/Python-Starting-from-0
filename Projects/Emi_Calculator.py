@@ -31,4 +31,4 @@ else:
         exit()
     EMI = P_eff * r_m * ((1 + r_m)**t) / denominator
 
-print("EMI: ", EMI)
+print(f"EMI per month for {t} months: ", EMI)
