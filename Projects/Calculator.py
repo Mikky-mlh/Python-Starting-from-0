@@ -1,4 +1,4 @@
-#Make a simple calculator for addition, subtraction, multiplication, average and division.
+# TODO: Make a simple calculator for addition, subtraction, multiplication, average and division.
 def add(x, y):
     return x + y
 
@@ -18,11 +18,11 @@ def divide(x, y):
         return "Division by zero error"
 
 print("Please select a operation:\n " \
-      "1. Addition\n" \
-      "2. Substraction\n" \
-      "3. Multiplication\n" \
-      "4. Division\n" \
-      "5. Average\n") 
+    "1. Addition\n" \
+    "2. Substraction\n" \
+    "3. Multiplication\n" \
+    "4. Division\n" \
+    "5. Average\n") 
 
 select = int(input("Select a operation from 1,2,3,4,5: "))
 
